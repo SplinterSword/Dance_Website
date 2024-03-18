@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Sparsh Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+              img(src = "/static/logo.png")
+              | HDA
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About] 
+            li #[a(href = '/') Services]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Contact Us]
+
+    section#introSection
+     div Welcome to Sparsh's Dance Academy 
+     div.small Eat Sleep Dance Repeat
+
+    section#MissionSection
+     h2 Our Mission
+     div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/background.jpg")
+          div.card-content
+            p This is the best dance academy of the universe
+     div.card
+        h3 Dance the way you want
+        div.card-box
+          div.card-img
+            img(src="/static/background.jpg")
+          div.card-content
+            p This is the best dance academy of the universe
+     div.card
+        h3 Expert Tutors
+        div.card-box
+          div.card-img
+            img(src="/static/background.jpg")
+          div.card-content
+            p This is the best dance academy of the universe
+
+    section#sponsertSection
+     h2 Our Sponsers
+     div#sponsors
+        img(src="/static/logo.png", alt="Sponser Image", class="spImage")
+        img(src="/static/logo.png", alt="Sponser Image", class="spImage")
+        img(src="/static/logo.png", alt="Sponser Image", class="spImage")
+        img(src="/static/logo.png", alt="Sponser Image", class="spImage")
+
+    footer#footer 
+     | Copyright 2024 SparshDanceAcademy.com All rights | reserverd
+    script
+      include ../static/index.js

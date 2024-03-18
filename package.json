@@ -1,0 +1,21 @@
+{
+  "name": "sparsh_dance_academy",
+  "version": "1.0.0",
+  "description": "This is the package manager for my dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dance"
+  ],
+  "author": "Sparsh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.0.3",
+    "pug": "^3.0.2"
+  }
+}
